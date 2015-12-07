@@ -1,0 +1,180 @@
+@import url("css/boostrap.min.css");
+@import url("css/lavish-bootstrap.css");
+
+
+body{
+	background-color: #FFF;
+}
+
+.navbar{
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.navbar-inverse {
+	background-color: #FFF;
+	border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #FFF;
+	background-color: #7E7E7E;
+}
+	
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #000;
+    border-bottom-color: #000;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+    border-top-color: #7E7E7E;
+    border-bottom-color: #7E7E7E;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #000;
+}
+
+.navbar-nav > li > a {
+    padding-top: 27px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #BDBDBD;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #7E7E7E;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #E9E9E9;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #7E7E7E;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #DBDBDB;
+}
+
+.marketing{
+	background: #30781a;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	font-size: 140px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.center{
+	text-align: center;
+}
+
+.jumbotron{
+	background: url("kitchen.jpg") no-repeat top center;
+	height: 850px;
+	padding-top: 150px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.jumbotron h1{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: 800;
+	font-size: 6em;
+}
+
+.img-responsive{
+	margin: 0 auto;
+}
+
+.row{
+	padding: 90px 0;
+}
+
+.slogan-section{
+	background: url("slogan-bg.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	color: #FFF;
+	font-size: 2em;
+	padding: 90px 0 90px 0;	
+}
+	.slogan-section p{
+		font-family: "Open Sans" !important;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+.bottom-section{
+	background-color: #2f2f2f;
+	color: #FFF;
+	text-align: center;
+}
+
+footer{
+	background-color: #3f3e3e;
+	color: #FFF;
+	text-align: center;
+	padding: 15px;
+	font-family: "Open Sans" !important;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.font-margin{
+	margin-bottom: 40px;
+}
+
+@media (max-width: 768px){
+	.jumbotron{
+		padding-top: 130px;
+		height: 600px;
+	}
+	
+	.jumbotron h1{
+
+	font-size: 3em;
+	}
+	.container{
+		text-align: center;
+	}
+}
+
+@media (max-width: 380px){
+	body{
+		font-size: 16px;
+	}
+	.jumbotron{
+		padding-top: 95px;
+		height: 550px;
+	}
+	
+	.jumbotron h1{
+		font-size: 2em;
+	}
+}
+
